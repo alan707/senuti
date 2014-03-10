@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {CLASS = FSControlledView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = FSViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {view = FSControlledView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = SEBottomToolbarView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {showProgressWindow = id; }; 
+            CLASS = SECopyProgressViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                backgroundView = SEBottomToolbarView; 
+                progress = NSProgressIndicator; 
+                title = NSTextField; 
+            }; 
+            SUPERCLASS = SEViewController; 
+        }, 
+        {CLASS = SEViewController; LANGUAGE = ObjC; SUPERCLASS = FSViewController; }
+    ); 
+    IBVersion = 1; 
+}

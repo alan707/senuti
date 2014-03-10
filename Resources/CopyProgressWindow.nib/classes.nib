@@ -1,0 +1,32 @@
+{
+    IBClasses = (
+        {CLASS = FSBackgroundView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {closeWindow = id; }; 
+            CLASS = FSWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = SECopyProgressWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addingName = NSTextField; 
+                addingProgress = NSProgressIndicator; 
+                addingRemaining = NSTextField; 
+                background = FSBackgroundView; 
+                copyingName = NSTextField; 
+                copyingProgress = NSProgressIndicator; 
+                copyingRemaining = NSTextField; 
+            }; 
+            SUPERCLASS = SEWindowController; 
+        }, 
+        {
+            CLASS = SEWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = FSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,131 @@
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"Automatically download and install updates in the future" = "Automatically download and install updates in the future";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"Relaunch Now" = "Relaunch Now";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"Relaunch Later" = "Relaunch Later";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"%.1lf%@ of %.1lf%@" = "%.1lf%@ of %.1lf%@";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"bytes" = "bytes";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"KB" = "KB";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"MB" = "MB";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"GB" = "GB";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"TB" = "TB";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"(%0.1lf %@/sec) %@ %i %@ remaining" = "(%0.1lf %@/sec) %@ %i %@ remaining";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"seconds" = "seconds";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"minutes" = "minutes";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"hours" = "hours";
+
+/* Whitney Young (Localizations) */
+/* No comment provided by engineer. */
+"days" = "days";
+
+/* No comment provided by engineer. */
+"%@ %@ has been installed and will be ready to use next time %@ starts. Would you like to relaunch now?" = "%@ %@ has been installed and will be ready to use next time %@ starts. Would you like to relaunch now?";
+
+/* No comment provided by engineer. */
+"%@ %@ is currently the newest version available." = "%@ %@ is currently the newest version available.";
+
+/* No comment provided by engineer. */
+"%@ %@ is now available (you have %@). Would you like to download it now?" = "%@ %@ is now available (you have %@). Would you like to download it now?";
+
+/* No comment provided by engineer. */
+"%@ does not have permission to write to the application's directory. Are you running off a disk image? If not, ask your system administrator for help." = "%@ does not have permission to write to the application's directory. Are you running off a disk image? If not, ask your system administrator for help.";
+
+/* No comment provided by engineer. */
+"A new version of %@ has been installed" = "A new version of %@ has been installed";
+
+/* No comment provided by engineer. */
+"A new version of %@ is available" = "A new version of %@ is available";
+
+/* No comment provided by engineer. */
+"An error occurred during installation. Please try again later." = "An error occurred during installation. Please try again later.";
+
+/* No comment provided by engineer. */
+"An error occurred in retrieving update information. Please try again later." = "An error occurred in retrieving update information. Please try again later.";
+
+/* No comment provided by engineer. */
+"An error occurred while extracting the archive. Please try again later." = "An error occurred while extracting the archive. Please try again later.";
+
+/* No comment provided by engineer. */
+"An error occurred while trying to download the file. Please try again later." = "An error occurred while trying to download the file. Please try again later.";
+
+/* No comment provided by engineer. */
+"An update is already in progress" = "An update is already in progress";
+
+/* No comment provided by engineer. */
+"Cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Check for updates on startup?" = "Check for updates on startup?";
+
+/* No comment provided by engineer. */
+"Downloading update..." = "Downloading update...";
+
+/* No comment provided by engineer. */
+"Extracting update..." = "Extracting update...";
+
+/* No comment provided by engineer. */
+"Install and Relaunch" = "Install and Relaunch";
+
+/* No comment provided by engineer. */
+"Installing update..." = "Installing update...";
+
+/* No comment provided by engineer. */
+"Ready to install" = "Ready to install";
+
+/* No comment provided by engineer. */
+"No" = "No";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Update Error" = "Update Error";
+
+/* No comment provided by engineer. */
+"Updating %@" = "Updating %@";
+
+/* No comment provided by engineer. */
+"Would you like %@ to check for updates on startup? If not, you can initiate the check manually from the %@ menu." = "Would you like %@ to check for updates on startup? If not, you can initiate the check manually from the %@ menu.";
+
+/* No comment provided by engineer. */
+"Yes" = "Yes";
+
+/* No comment provided by engineer. */
+"You're up to date" = "You're up to date";
+

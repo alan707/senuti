@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B041D810C8C56B70026829B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF367AA0C8645F900137F3C /* Localizable.strings */; };
+		8B36C68E0A87CC45002AA9F5 /* AIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B36C68D0A87CC45002AA9F5 /* AIViewAdditions.m */; };
+		8B36C7A10A87D08B002AA9F5 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8B36C7A00A87D08B002AA9F5 /* MainMenu.nib */; };
+		8B36C7AF0A87D0A2002AA9F5 /* Reporter-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B36C7AE0A87D0A2002AA9F5 /* Reporter-Info.plist */; };
+		8B36C7CC0A87D10F002AA9F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B36C7CA0A87D10F002AA9F5 /* InfoPlist.strings */; };
+		8B36C7D10A87D160002AA9F5 /* atos in Resources */ = {isa = PBXBuildFile; fileRef = 8B36C7D00A87D160002AA9F5 /* atos */; };
+		8BF7B8570A83BC3A00D39EDD /* AIExceptionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF7B8550A83BC3A00D39EDD /* AIExceptionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF7B8580A83BC3A00D39EDD /* AIExceptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7B8560A83BC3A00D39EDD /* AIExceptionController.m */; };
+		8BF7B8880A83C05600D39EDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7B85C0A83BC6F00D39EDD /* main.m */; };
+		8BF7B8890A83C05700D39EDD /* AICrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7B8610A83BC8700D39EDD /* AICrashReporter.m */; };
+		8BF7B88A0A83C08A00D39EDD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+		8BF7BDAF0A83C7A800D39EDD /* AIFileManagerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7BD550A83C65100D39EDD /* AIFileManagerAdditions.m */; };
+		8BF7BDB00A83C7A900D39EDD /* AIStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7BD4F0A83C64200D39EDD /* AIStringAdditions.m */; };
+		8BF7BDB10A83C7AA00D39EDD /* AITextViewWithPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7BD3D0A83C5F500D39EDD /* AITextViewWithPlaceholder.m */; };
+		8BF7BF030A83D4D600D39EDD /* Crash Reporter.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BF7B8420A83BBC800D39EDD /* Crash Reporter.app */; };
+		8BF7C0300A83D72C00D39EDD /* CrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF7C02F0A83D72C00D39EDD /* CrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF7C05B0A83D87500D39EDD /* AICrashController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF7C05A0A83D87500D39EDD /* AICrashController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BF7C07A0A83D90000D39EDD /* ExceptionHandling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7C0790A83D90000D39EDD /* ExceptionHandling.framework */; };
+		8BF7C08B0A83D92F00D39EDD /* AICrashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7B8500A83BC1C00D39EDD /* AICrashController.m */; };
+		8BF7C0D70A83DB7800D39EDD /* AIFileManagerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF7BD540A83C65100D39EDD /* AIFileManagerAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		8BF7C0D80A83DB7900D39EDD /* AIFileManagerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7BD550A83C65100D39EDD /* AIFileManagerAdditions.m */; };
+		8BF7C0D90A83DB7B00D39EDD /* AIStringAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF7BD4E0A83C64200D39EDD /* AIStringAdditions.h */; settings = {ATTRIBUTES = (); }; };
+		8BF7C0DA0A83DB7D00D39EDD /* AIStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7BD4F0A83C64200D39EDD /* AIStringAdditions.m */; };
+		8BF7C1240A83DE6300D39EDD /* AIColorAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF7C1220A83DE6300D39EDD /* AIColorAdditions.h */; };
+		8BF7C1250A83DE6300D39EDD /* AIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7C1230A83DE6300D39EDD /* AIColorAdditions.m */; };
+		8BF7C1260A83DE6300D39EDD /* AIColorAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7C1230A83DE6300D39EDD /* AIColorAdditions.m */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BF7BF010A83D4C800D39EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF7B8410A83BBC800D39EDD;
+			remoteInfo = "Crash Reporter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BF7BF080A83D4EC00D39EDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				8BF7BF030A83D4D600D39EDD /* Crash Reporter.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8B041D4A0C8C54010026829B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Resources/fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B041D4B0C8C54160026829B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Resources/fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B041E9D0C8D75510026829B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B041E9E0C8D755B0026829B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Resources/de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B36C68C0A87CC45002AA9F5 /* AIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AIViewAdditions.h; path = Source/AIViewAdditions.h; sourceTree = "<group>"; };
+		8B36C68D0A87CC45002AA9F5 /* AIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = AIViewAdditions.m; path = Source/AIViewAdditions.m; sourceTree = "<group>"; };
+		8B36C7A00A87D08B002AA9F5 /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = MainMenu.nib; path = Resources/MainMenu.nib; sourceTree = "<group>"; };
+		8B36C7A60A87D099002AA9F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = Info.plist; path = Other/Info.plist; sourceTree = "<group>"; };
+		8B36C7AE0A87D0A2002AA9F5 /* Reporter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "Reporter-Info.plist"; path = "Other/Reporter-Info.plist"; sourceTree = "<group>"; };
+		8B36C7B70A87D0D2002AA9F5 /* CrashReporter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CrashReporter_Prefix.pch; path = Other/CrashReporter_Prefix.pch; sourceTree = "<group>"; };
+		8B36C7D00A87D160002AA9F5 /* atos */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = atos; path = Resources/atos; sourceTree = "<group>"; };
+		8B36D0F10A896532002AA9F5 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		8B95F1380CA3E7E800F7861B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Resources/ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B95F1390CA3E7F100F7861B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Resources/ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8B95F1660CA3F1BD00F7861B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B95F1670CA3F1C400F7861B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BF367A70C86459C00137F3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BF367AC0C86460200137F3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8BF7B8420A83BBC800D39EDD /* Crash Reporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crash Reporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF7B8500A83BC1C00D39EDD /* AICrashController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AICrashController.m; path = Source/AICrashController.m; sourceTree = "<group>"; };
+		8BF7B8550A83BC3A00D39EDD /* AIExceptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIExceptionController.h; path = Source/AIExceptionController.h; sourceTree = "<group>"; };
+		8BF7B8560A83BC3A00D39EDD /* AIExceptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIExceptionController.m; path = Source/AIExceptionController.m; sourceTree = "<group>"; };
+		8BF7B85C0A83BC6F00D39EDD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
+		8BF7B8600A83BC8700D39EDD /* AICrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AICrashReporter.h; path = Source/AICrashReporter.h; sourceTree = "<group>"; };
+		8BF7B8610A83BC8700D39EDD /* AICrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AICrashReporter.m; path = Source/AICrashReporter.m; sourceTree = "<group>"; };
+		8BF7BD3C0A83C5F500D39EDD /* AITextViewWithPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AITextViewWithPlaceholder.h; path = Source/AITextViewWithPlaceholder.h; sourceTree = "<group>"; };
+		8BF7BD3D0A83C5F500D39EDD /* AITextViewWithPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AITextViewWithPlaceholder.m; path = Source/AITextViewWithPlaceholder.m; sourceTree = "<group>"; };
+		8BF7BD4E0A83C64200D39EDD /* AIStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIStringAdditions.h; path = Source/AIStringAdditions.h; sourceTree = "<group>"; };
+		8BF7BD4F0A83C64200D39EDD /* AIStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIStringAdditions.m; path = Source/AIStringAdditions.m; sourceTree = "<group>"; };
+		8BF7BD540A83C65100D39EDD /* AIFileManagerAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIFileManagerAdditions.h; path = Source/AIFileManagerAdditions.h; sourceTree = "<group>"; };
+		8BF7BD550A83C65100D39EDD /* AIFileManagerAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIFileManagerAdditions.m; path = Source/AIFileManagerAdditions.m; sourceTree = "<group>"; };
+		8BF7C02F0A83D72C00D39EDD /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CrashReporter.h; path = Source/CrashReporter.h; sourceTree = "<group>"; };
+		8BF7C05A0A83D87500D39EDD /* AICrashController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AICrashController.h; path = Source/AICrashController.h; sourceTree = "<group>"; };
+		8BF7C0790A83D90000D39EDD /* ExceptionHandling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExceptionHandling.framework; path = /System/Library/Frameworks/ExceptionHandling.framework; sourceTree = "<absolute>"; };
+		8BF7C1220A83DE6300D39EDD /* AIColorAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIColorAdditions.h; path = Source/AIColorAdditions.h; sourceTree = "<group>"; };
+		8BF7C1230A83DE6300D39EDD /* AIColorAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIColorAdditions.m; path = Source/AIColorAdditions.m; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* CrashReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CrashReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF7B8400A83BBC800D39EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7B88A0A83C08A00D39EDD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				8BF7C07A0A83D90000D39EDD /* ExceptionHandling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* CrashReporter.framework */,
+				8BF7B8420A83BBC800D39EDD /* Crash Reporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7C02F0A83D72C00D39EDD /* CrashReporter.h */,
+				08FB77AEFE84172EC02AAC07 /* Framework */,
+				8BF7C0DF0A83DB8C00D39EDD /* Shared */,
+				8BF7B85B0A83BC5400D39EDD /* Application */,
+				8B36CD2F0A88FE4F002AA9F5 /* Sparkle Headers */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = CrashReporter;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B36C7D00A87D160002AA9F5 /* atos */,
+				8B36C7AE0A87D0A2002AA9F5 /* Reporter-Info.plist */,
+				8B36C7A60A87D099002AA9F5 /* Info.plist */,
+				8BF367AA0C8645F900137F3C /* Localizable.strings */,
+				8B36C7CA0A87D10F002AA9F5 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7C05A0A83D87500D39EDD /* AICrashController.h */,
+				8BF7B8500A83BC1C00D39EDD /* AICrashController.m */,
+				8BF7B8550A83BC3A00D39EDD /* AIExceptionController.h */,
+				8BF7B8560A83BC3A00D39EDD /* AIExceptionController.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7C0790A83D90000D39EDD /* ExceptionHandling.framework */,
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8B36C7B70A87D0D2002AA9F5 /* CrashReporter_Prefix.pch */,
+				8BF7B85C0A83BC6F00D39EDD /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		8B36CD2F0A88FE4F002AA9F5 /* Sparkle Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8B36D0F10A896532002AA9F5 /* Sparkle.framework */,
+			);
+			path = "Sparkle Headers";
+			sourceTree = "<group>";
+		};
+		8BF7B85B0A83BC5400D39EDD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7B8600A83BC8700D39EDD /* AICrashReporter.h */,
+				8BF7B8610A83BC8700D39EDD /* AICrashReporter.m */,
+				8BF7BD3C0A83C5F500D39EDD /* AITextViewWithPlaceholder.h */,
+				8BF7BD3D0A83C5F500D39EDD /* AITextViewWithPlaceholder.m */,
+				8B36C68C0A87CC45002AA9F5 /* AIViewAdditions.h */,
+				8B36C68D0A87CC45002AA9F5 /* AIViewAdditions.m */,
+				8B36C7A00A87D08B002AA9F5 /* MainMenu.nib */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		8BF7C0DF0A83DB8C00D39EDD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7BD4E0A83C64200D39EDD /* AIStringAdditions.h */,
+				8BF7BD4F0A83C64200D39EDD /* AIStringAdditions.m */,
+				8BF7BD540A83C65100D39EDD /* AIFileManagerAdditions.h */,
+				8BF7BD550A83C65100D39EDD /* AIFileManagerAdditions.m */,
+				8BF7C1220A83DE6300D39EDD /* AIColorAdditions.h */,
+				8BF7C1230A83DE6300D39EDD /* AIColorAdditions.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7B8570A83BC3A00D39EDD /* AIExceptionController.h in Headers */,
+				8BF7C0300A83D72C00D39EDD /* CrashReporter.h in Headers */,
+				8BF7C05B0A83D87500D39EDD /* AICrashController.h in Headers */,
+				8BF7C0D70A83DB7800D39EDD /* AIFileManagerAdditions.h in Headers */,
+				8BF7C0D90A83DB7B00D39EDD /* AIStringAdditions.h in Headers */,
+				8BF7C1240A83DE6300D39EDD /* AIColorAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8BF7B8410A83BBC800D39EDD /* Crash Reporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF7B8450A83BBC900D39EDD /* Build configuration list for PBXNativeTarget "Crash Reporter" */;
+			buildPhases = (
+				8BF7B83E0A83BBC800D39EDD /* Resources */,
+				8BF7B83F0A83BBC800D39EDD /* Sources */,
+				8BF7B8400A83BBC800D39EDD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Crash Reporter";
+			productName = Reporter;
+			productReference = 8BF7B8420A83BBC800D39EDD /* Crash Reporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DC2EF4F0486A6940098B216 /* CrashReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CrashReporter" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				8BF7BF080A83D4EC00D39EDD /* CopyFiles */,
+				8B36CE990A89091A002AA9F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF7BF020A83D4C800D39EDD /* PBXTargetDependency */,
+			);
+			name = CrashReporter;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = CrashReporter;
+			productReference = 8DC2EF5B0486A6940098B216 /* CrashReporter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CrashReporter" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				fr,
+				de,
+				jp,
+				ja,
+				es,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* CrashReporter */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* CrashReporter */,
+				8BF7B8410A83BBC800D39EDD /* Crash Reporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF7B83E0A83BBC800D39EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B36C7A10A87D08B002AA9F5 /* MainMenu.nib in Resources */,
+				8B36C7AF0A87D0A2002AA9F5 /* Reporter-Info.plist in Resources */,
+				8B041D810C8C56B70026829B /* Localizable.strings in Resources */,
+				8B36C7CC0A87D10F002AA9F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B36C7D10A87D160002AA9F5 /* atos in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B36CE990A89091A002AA9F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Create the symlink: Crash Reporter.app/Frameworks\n# to the Frameworks of the project that's including this one (for Sparkle support)\n\ncd \"${BUILT_PRODUCTS_DIR}/CrashReporter.framework/Resources/Crash Reporter.app/Contents/\"\nif [ -e Frameworks ] ; then\n    rm Frameworks\nfi\n\necho \"Symlinking framework...\"\nln -fns \"../../../../../../../Frameworks\" \"Frameworks\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF7B83F0A83BBC800D39EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7B8880A83C05600D39EDD /* main.m in Sources */,
+				8BF7B8890A83C05700D39EDD /* AICrashReporter.m in Sources */,
+				8BF7BDAF0A83C7A800D39EDD /* AIFileManagerAdditions.m in Sources */,
+				8BF7BDB00A83C7A900D39EDD /* AIStringAdditions.m in Sources */,
+				8BF7BDB10A83C7AA00D39EDD /* AITextViewWithPlaceholder.m in Sources */,
+				8BF7C1260A83DE6300D39EDD /* AIColorAdditions.m in Sources */,
+				8B36C68E0A87CC45002AA9F5 /* AIViewAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7C08B0A83D92F00D39EDD /* AICrashController.m in Sources */,
+				8BF7B8580A83BC3A00D39EDD /* AIExceptionController.m in Sources */,
+				8BF7C0D80A83DB7900D39EDD /* AIFileManagerAdditions.m in Sources */,
+				8BF7C0DA0A83DB7D00D39EDD /* AIStringAdditions.m in Sources */,
+				8BF7C1250A83DE6300D39EDD /* AIColorAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BF7BF020A83D4C800D39EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF7B8410A83BBC800D39EDD /* Crash Reporter */;
+			targetProxy = 8BF7BF010A83D4C800D39EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B36C7CA0A87D10F002AA9F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF367A70C86459C00137F3C /* en */,
+				8B041D4B0C8C54160026829B /* fr */,
+				8B041E9E0C8D755B0026829B /* de */,
+				8B95F1390CA3E7F100F7861B /* ja */,
+				8B95F1670CA3F1C400F7861B /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BF367AA0C8645F900137F3C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF367AC0C86460200137F3C /* en */,
+				8B041D4A0C8C54010026829B /* fr */,
+				8B041E9D0C8D75510026829B /* de */,
+				8B95F1380CA3E7E800F7861B /* ja */,
+				8B95F1660CA3F1BD00F7861B /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Other/CrashReporter_Prefix.pch;
+				INFOPLIST_FILE = Other/Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x2001000,
+				);
+				PRODUCT_NAME = CrashReporter;
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Other/CrashReporter_Prefix.pch;
+				INFOPLIST_FILE = Other/Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-seg1addr",
+					0x2001000,
+				);
+				PRODUCT_NAME = CrashReporter;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH)";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+			};
+			name = Release;
+		};
+		8BF7B8460A83BBC900D39EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Other",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "$(SRCROOT)/Sparkle\\ Headers";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Other/CrashReporter_Prefix.pch;
+				INFOPLIST_FILE = "Other/Reporter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					Sparkle,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Crash Reporter";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8BF7B8470A83BBC900D39EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(FRAMEWORK_SEARCH_PATHS)",
+					"$(SRCROOT)",
+					"$(SRCROOT)/Other",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "$(SRCROOT)/Sparkle\\ Headers";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREFIX_HEADER = Other/CrashReporter_Prefix.pch;
+				INFOPLIST_FILE = "Other/Reporter-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					Sparkle,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Crash Reporter";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF7B8450A83BBC900D39EDD /* Build configuration list for PBXNativeTarget "Crash Reporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF7B8460A83BBC900D39EDD /* Debug */,
+				8BF7B8470A83BBC900D39EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

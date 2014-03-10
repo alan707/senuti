@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {relaunchLater = id; relaunchNow = id; }; 
+            CLASS = SUAutomaticUpdateAlert; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {alternateButton = NSButton; defaultButton = NSButton; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

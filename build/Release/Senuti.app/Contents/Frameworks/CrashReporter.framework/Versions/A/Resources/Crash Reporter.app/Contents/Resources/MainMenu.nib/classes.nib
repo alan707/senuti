@@ -1,0 +1,35 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {closePrivacyDetails = id; send = id; showPrivacyDetails = id; }; 
+            CLASS = AICrashReporter; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "button_close" = NSButton; 
+                "button_closeSheet" = NSButton; 
+                "button_privacy" = NSButton; 
+                "button_send" = NSButton; 
+                "panel_privacySheet" = NSPanel; 
+                "progress_sending" = NSProgressIndicator; 
+                "scrollView_details" = NSScrollView; 
+                "textField_additionalInfo" = NSTextField; 
+                "textField_contactInfo" = NSTextField; 
+                "textField_description" = NSTextField; 
+                "textField_descriptionLabel" = NSTextField; 
+                "textField_emailAddress" = NSTextField; 
+                "textField_emailLabel" = NSTextField; 
+                "textField_explanationLabel" = NSTextField; 
+                "textField_info" = NSTextField; 
+                "textField_privacyInfo" = NSTextField; 
+                "textField_title" = NSTextField; 
+                "textView_crashLog" = NSTextView; 
+                "textView_details" = AITextViewWithPlaceholder; 
+                "window_MainWindow" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AITextViewWithPlaceholder; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

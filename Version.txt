@@ -1,0 +1,10 @@
+# Changing items in this file will change them globally.
+# All scripts should use this file for version information.
+
+# The calling script processes this file with the following commands:
+# egrep "^Version" Version.txt | awk '{print $2}'
+# egrep "^FrameworkVersions" Version.txt | awk '{print $2}'
+# egrep "^Beta" Version.txt | awk '{print $2}' (which tests for the string "true")
+
+Version 0.50.2
+Beta false

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Senuti</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Senuti 0.50.2, Copyright 2004-2008 Whitney Young.</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>Senuti Help</string>
+	<key>CFBundleHelpBookName</key>
+	<string>Senuti Help</string>
+	<key>CFBundleIconFile</key>
+	<string>icon</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.fadingred.Senuti</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>FSNT</string>
+	<key>CFBundleVersion</key>
+	<string>0.50.2</string>
+	<key>CrashReportURL</key>
+	<string>http://www.fadingred.org/senuti/crash/</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUCheckAtStartup</key>
+	<false/>
+	<key>SUExpectsDSASignature</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>http://www.fadingred.org/senuti/updates.xml</string>
+	<key>SUPublicDSAKey</key>
+	<string>-----BEGIN PUBLIC KEY-----
+MIIDOjCCAi0GByqGSM44BAEwggIgAoIBAQDK5P8ErKbPvn+mVwjtJSMV8DMcSj8u
+OogIjBxRT7ER8KTucgEhMhwspzlWx5QEYyrIMbcRhBW22rkPa3NDqzDx4Hwc6oyV
+AS09mlB1GdGYH7tmz90Aq2pN6Uuqwm9fAMUS8Y6tSrwl38uSCgK/ExM2JqTH0daL
+drjC3Z1vSSjDk81NgKVK05c8Dv/F088OUfbu0mR2bSJ6xyY9dFytXmRXYAYCUS2D
+S4rNJekzdId2S5lkm7h43Llb+ONFVcwubrE+8FSg1iNixEvOxHEJRWsvNst8lg24
+jBTPZA+bs5f9qcGGsIh3HS2Ev12gISaeIE+73ymO8LKDkq3Ii2wUU1+RAhUA1+MS
+dCQi0M8hLw554wPL0fLX5I8CggEAaT9k6QhfRGVALeg302ACX7Xft+XPwTxVWhNz
+NBP7haGCc7AVx/ZHoeph099AqSzy2Xh6ndrCwKOnrGHlnv+OK6xaNMDUWNZU2QXh
+f31SPm0l9oTHEuiwAjpGW1Sg9lLp1BwwYUt1/TmiNMvVfdr6O+0qh1P/3kANjMgu
+rs20KDoMjZPMFNJ9lLPl4pJT9YrFYCUNcepFx6728J6oNSQ1owZ/72qDnf0EqNEQ
+buwlLNsB4KAK9i/0bM7JjLO59eElPKjejWJKZue5pElLzyxmMt2hv0zBvEiq7xnF
+k1h3liqbAoPuY0AAkods0X6W5SxZz81ezkPH4QMmAZn6uvrkGAOCAQUAAoIBAAK0
+FRKIUpQqjlopnxJqJIZVyovTdaOt9gNFshbi7Y6rrv9+iejk+TQ4e9UeZH48qAQY
+LqyxwKl6ML6o/WwwSvjqcRlbQuXn9Fit64f4yaOE7+hvvw4oqz+W1rsHPjyM8Wqt
+INv2+E4jdrs2HrIgD7mhn6MzReLpkpZo/6SgZOIE0dVtO17S1jKoxL/aK6+Q+zu/
+acLD3CBnoWBfLMDFV/XkAxhgElM+VQcfdaqU7UUqyBITPfPQuM6djkAwuBxptKu0
+Ikmt9uZkl6S2hDwhy+rI0x7dyFyczWue7KP6PJC8cs7Cx2jRY+p7i/0ReH/PydQy
+Bjqxz58CGxiU6prTe8A=
+-----END PUBLIC KEY-----</string>
+</dict>
+</plist>

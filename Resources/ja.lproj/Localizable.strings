@@ -1,0 +1,312 @@
+﻿/* No comment provided by engineer. */
+"%.1f %@" = "%1$.1f %2$@";
+
+/* No comment provided by engineer. */
+"%.2f %@" = "%1$.2f %2$@";
+
+/* No comment provided by engineer. */
+"%@ of %@" = "%1$@/%2$@";
+
+/* No comment provided by engineer. */
+"%i remaining" = "残り%i";
+
+/* Number of songs, time and size */
+"%i songs, %@, %@" = "%1$i曲, %2$@, %3$@";
+
+/* No comment provided by engineer. */
+"%i:%02i" = "%1$i:%2$i";
+
+/* No comment provided by engineer. */
+"%i:%i:%02i" = "%1$i:%2$i:%3$i";
+
+/* No comment provided by engineer. */
+"Adding %@" = "追加中 %@";
+
+/* No comment provided by engineer. */
+"Adding completed" = "追加完了";
+
+/* No comment provided by engineer. */
+"Advanced" = "詳細";
+
+/* Header string for track album */
+"Album" = "アルバム";
+
+/* No comment provided by engineer. */
+"All" = "すべて";
+
+/* Duplicate file notification message */
+"An item already exists where you are trying to copy \"%@\".  Do you want Senuti to choose a similar file name?" = "\"%@\"はコピー先にすでに存在しています。Senutiに類似のファイル名を選択させますか？";
+
+/* No comment provided by engineer. */
+"Apple Support" = "アップルサポート";
+
+/* Stop copying - title */
+"Are you sure you want to stop copying?" = "コピーを中止してもよろしいですか？";
+
+/* Header string for track artist */
+"Artist" = "アーティスト";
+
+/* Header string for track bit rate */
+"Bit Rate" = "ビットレート";
+
+/* No comment provided by engineer. */
+"bytes" = "バイト";
+
+/* No comment provided by engineer. */
+"Cancel" = "キャンセル";
+
+/* Prompt in open panel for choosing a new copy location */
+"Choose" = "選択";
+
+/* Header string for track comment */
+"Comment" = "コメント";
+
+/* No comment provided by engineer. */
+"Comparing" = "ファイル照合";
+
+/* Header string for track composer */
+"Composer" = "作曲者";
+
+/* No comment provided by engineer. */
+"Continue" = "続ける";
+
+/* No comment provided by engineer. */
+"Copying" = "コピー";
+
+/* No comment provided by engineer. */
+"Copying %@" = "コピー中 %@";
+
+/* No comment provided by engineer. */
+"Copying completed" = "コピー完了";
+
+/* Header string for track creation date */
+"Date Added" = "追加日";
+
+/* No comment provided by engineer. */
+"days" = "日";
+
+/* No comment provided by engineer. */
+"Debug" = "バグレポートを送信";
+
+/* No comment provided by engineer. */
+"Desktop" = "デスクトップ";
+
+/* Header string for track disc number */
+"Disc Number" = "ディスク番号";
+
+/* No comment provided by engineer. */
+"Done" = "完了";
+
+/* Duplicate file notification title */
+"Duplicate File" = "ファイルを複製する";
+
+/* No comment provided by engineer. */
+"EB" = "EB";
+
+/* Header string for track filetype */
+"Filetype" = "ファイルタイプ";
+
+/* No comment provided by engineer. */
+"GB" = "GB";
+
+/* No comment provided by engineer. */
+"General" = "一般";
+
+/* Header string for track genre */
+"Genre" = "ジャンル";
+
+/* No comment provided by engineer. */
+"Gbps" = "Gbps";
+
+/* No comment provided by engineer. */
+"Home Folder" = "ホームフォルダ";
+
+/* No comment provided by engineer. */
+"hours" = "時間";
+
+/* Prefix for items in 'Hide Songs' menu */
+"In %@" = "%@にあるもの";
+
+/* No comment provided by engineer. */
+"Insert an iPod to get started" = "iPodを接続してください。";
+
+/* No comment provided by engineer. */
+"iTunes Music Folder" = "iTunes Musicフォルダ";
+
+/* No comment provided by engineer. */
+"KB" = "KB";
+
+/* No comment provided by engineer. */
+"kbps" = "kbps";
+
+/* Header string for track last modified */
+"Last Modified" = "変更日";
+
+/* Header string for track last played */
+"Last Played" = "最後に再生した日";
+
+/* Name of library in source list */
+"Library" = "ライブラリ";
+
+/* No comment provided by engineer. */
+"MB" = "MB";
+
+/* No comment provided by engineer. */
+"Mbps" = "Mbps";
+
+/* No comment provided by engineer. */
+"minutes" = "分";
+
+/* Header string for track name */
+"Name" = "トラック名";
+
+/* No comment provided by engineer. */
+"Never" = "履歴なし";
+
+/* Disk full - title */
+"Not enough free disk space" = "ディスクの空き容量が足りません。";
+
+/* No comment provided by engineer. */
+"Nothing selected" = "何も選択されていません。";
+
+/* No comment provided by engineer. */
+"Other..." = "その他...";
+
+/* No comment provided by engineer. */
+"Overwrite" = "上書きする";
+
+/* No comment provided by engineer. */
+"PB" = "PB";
+
+/* Header string for track play count */
+"Play Count" = "再生回数";
+
+/* No comment provided by engineer. */
+"Preferences : " = "環境設定 : ";
+
+/* Header string for track rating */
+"Rating" = "レート";
+
+/* No comment provided by engineer. */
+"Search" = "検索";
+
+/* No comment provided by engineer. */
+"Search Songs" = "曲を検索";
+
+/* No comment provided by engineer. */
+"seconds" = "秒";
+
+/* No comment provided by engineer. */
+"Select a single item" = "ひとつの項目を選択してください。";
+
+/* No comment provided by engineer. */
+"Senuti Support" = "Senutiサポート";
+
+/* iTunes add timeout - message */
+"Senuti was unable to add songs to iTunes.  This is most likely because iTunes has a dialog displayed.  Please dismiss all dialogs in iTunes before continuing." = "SenutiはiTunesに曲を追加できませんでした。iTunes上でダイアログが表示されている場合は、すべてを閉じてから続けるをクリックしてください。";
+
+/* copy fail - message */
+"Senuti was unable to copy the song \"%@\".  An error occurred while trying to %@.  If this continues to be an issue, please report it." = "Senuti was unable to copy the song \"%1$@\".  An error occurred while trying to %2$@.  If this continues to be an issue, please report it.";
+
+/* Cannot create copy directory - message */
+"Senuti was unable to create the folder \"%@\".  This could be because the directory is readonly or because you are trying to copy to an external hard drive which is not present.  You can attempt to create the directory yourself and try again." = "Senutiは\"%@\"フォルダを作成することができませんでした。指定したディレクトリが読み取り専用になっているか、接続されていない外部ディスクドライブが指定されている可能性があります。フォルダを別途作成してから再試行することも可能です。";
+
+/* Header string for track size */
+"Size" = "サイズ";
+
+/* No comment provided by engineer. */
+"Skip" = "スキップ";
+
+/* No comment provided by engineer. */
+"Song" = "曲";
+
+/* No comment provided by engineer. */
+"Stop Copying" = "コピーを中止";
+
+/* Stop copying - message */
+"Stoping copying will not allow you to resume and is not recommended." = "コピーは一旦中止すると再開できないため、中止は推奨されません。";
+
+/* No comment provided by engineer. */
+"TB" = "TB";
+
+/* No comment provided by engineer. */
+"Tbps" = "Tbps";
+
+/* No comment provided by engineer. */
+"Test Crash Reporter" = "Test Crash Reporter";
+
+/* Header string for track time */
+"Time" = "時間";
+
+/* No comment provided by engineer. */
+"Title" = "タイトル";
+
+/* Disk full - message */
+"To copy the tracks you requested, %0.2f MB of free disk space is required.  Please free more space or try copying to a different disk." = "指定したトラックをコピーするためには、%0.2fMBのディスクの空き容量が必要です。空き容量を増やすか、他のディスクにコピーしてください。";
+
+/* No comment provided by engineer. */
+"Total Discs" = "ディスク数";
+
+/* No comment provided by engineer. */
+"Total Tracks" = "トラック数";
+
+/* No comment provided by engineer. */
+"Track also on: %@" = "同トラック収録: %@";
+
+/* No comment provided by engineer. */
+"Track not on other devices" = "他のデバイスにないトラック";
+
+/* Header string for track track number */
+"Track Number" = "トラックナンバー";
+
+/* No comment provided by engineer. */
+"Transfer" = "転送";
+
+/* No comment provided by engineer. */
+"Transfer Songs" = "曲を転送する";
+
+/* No comment provided by engineer. */
+"Try Again" = "再試行する";
+
+/* iTunes add timeout - title */
+"Unable to add song to iTunes" = "iTunesに曲を追加できません。";
+
+/* copy fail - title */
+"Unable to copy song" = "Unable to copy song";
+
+/* iTunes add timeout - title */
+"Unable to create folder" = "フォルダを作成できません。";
+
+/* No comment provided by engineer. */
+"Unknown Album" = "不明なアルバム";
+
+/* No comment provided by engineer. */
+"Unknown Artist" = "不明なアーティスト";
+
+/* No comment provided by engineer. */
+"Updates" = "アップデート";
+
+/* No comment provided by engineer. */
+"Use Similar Name" = "類似のファイル名を使う";
+
+/* No comment provided by engineer. */
+"Waiting to add" = "追加待機中";
+
+/* No comment provided by engineer. */
+"Waiting to copy" = "コピー待機中";
+
+/* No comment provided by engineer. */
+"YB" = "YB";
+
+/* Header string for track year */
+"Year" = "年";
+
+/* No comment provided by engineer. */
+"years" = "年";
+
+/* No comment provided by engineer. */
+"ZB" = "ZB";
+
+/* The path to the default iTunes music folder */
+"~/Music/iTunes/iTunes Music" = "~/Music/iTunes/iTunes Music";
+

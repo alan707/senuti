@@ -1,0 +1,15 @@
+1cd07da10ff4ab1045ad08736e57846c 0c68b708e2f14e8be00f89dbbb3e75f0 ffffffffffffffffffffffffffffffff 148764 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/ppc/SEConsumerTest.o
+83b181b9b0ac59fe25c9489a9f37e45d 2966eef809b359c5faaaa33c5ebdca2e ffffffffffffffffffffffffffffffff 128300 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/i386/SEConsumerTest.o
+1cd07da10ff4ab1345ad08736e57d07b bc3a1f15aa4bb9135c0e350b514230a4 ffffffffffffffffffffffffffffffff 38760 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/ppc/SEConsumer.o
+83b181b9b0ac59fd25c9489a9f37b04a 077524f4a0531743275fb0328958e469 ffffffffffffffffffffffffffffffff 33380 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/i386/SEConsumer.o
+1cd07da1471c7c9845ad08736e57cfae 0b57144a87267c2eb4cfd4b802fb6687 ffffffffffffffffffffffffffffffff 17396 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/ppc/SELooper.o
+83b181b9f8448e7625c9489a9f37af9f 8713fb4296f2ffc5d173a1bfd69d5f43 ffffffffffffffffffffffffffffffff 15480 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/i386/SELooper.o
+92a12260ddb812cfefd09bbca0500688 e9b0d6e9184d691caeeef4bfa3c7e1d3 ffffffffffffffffffffffffffffffff 0 /Users/bvarner/Downloads/senuti/build/Release/Unit Tests.runtime
+00000000000000000000000000000000 6707382834d6c91fce759938b49178a7 ffffffffffffffffffffffffffffffff 102 /Users/bvarner/Downloads/senuti/build/Release/Unit Tests.octest.dSYM
+589d0c0999ed3ac75868f7cebc381335 cbbd0e4f479130b85e3d30c0b903b251 ffffffffffffffffffffffffffffffff 102 /Users/bvarner/Downloads/senuti/build/Release/Unit Tests.octest
+27bc1cdce790606f2fc37f66325fdf7c b51d3ebc73e3989ec013e4da920fdde1 ffffffffffffffffffffffffffffffff 162588 /Users/bvarner/Downloads/senuti/build/Release/Unit Tests.octest/Contents/MacOS/Unit Tests
+a7d5c1f689e887874d63601b86d81884 7bd85e861dcf33d909f6119333bce9c0 ffffffffffffffffffffffffffffffff 72476 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/ppc/Unit Tests
+0000000006f038a8000000000000665c 1cd07da141ec443045ad08736e57a49d ffffffffffffffffffffffffffffffff 33417468 /var/folders/Je/JecUV3GJGuOQ8TsRfKej0++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Senuti-czlgaqycvdveiefubqogmbuadafo/Senuti.pch.gch
+2ab1b0f7c63e4f9c294ffa2b9e472a62 d100335bb5899bad4219f4c5197c045a ffffffffffffffffffffffffffffffff 84624 /Users/bvarner/Downloads/senuti/build/Senuti.build/Release/Unit Tests.build/Objects-normal/i386/Unit Tests
+0000000006f038a8000000000000665c 83b181b9feb4b6de25c9489a9f37c4ac ffffffffffffffffffffffffffffffff 35002788 /var/folders/Je/JecUV3GJGuOQ8TsRfKej0++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Senuti-bdzkyymfgtqdtaahlnggcnrhurze/Senuti.pch.gch
+00000000000000000000000000000000 ca3c2e690d9ec236b7b86c721c6811a8 ffffffffffffffffffffffffffffffff 610 /Users/bvarner/Downloads/senuti/build/Release/Unit Tests.octest/Contents/Info.plist

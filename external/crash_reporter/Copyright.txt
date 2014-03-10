@@ -1,0 +1,53 @@
+CrashReporter
+Copyright (C) 2004-2006 Whitney Young
+
+Most of the CrashReporter framework is an abstraction
+from the Adium project's Crash Reporter.  Please visit
+the project's site (http://www.adiumx.com) for more
+information.  Copyright information from the project
+at the time that code was taken is as follows:
+
+Adium
+Copyright (C) 2001-2006 by the following:
+
+Adam Atlas
+Colin Barrett
+Erik J. Barzeski
+Max Bertrand
+Adam Betts
+Graham Booker
+Jorge Salvador Caffarena
+David Clark
+Nelson Elhage
+Augie Fackler
+Ken Ferry
+Christopher Forsythe
+Brian Ganninger
+Arno Hautala
+Asher Haig
+Jasper Hauser
+Stephen Holt
+Adam Iser
+Severin Klaus
+Ian Krieg
+Thomas Kunze
+Scott Lamb
+Jack M.H. Lin
+Sam McCandlish
+Mac-arena the Bored Zo
+Nicola Del Monaco
+Jeffrey Melloy
+David Munch
+Roeland Nas
+Laura Natcher
+Daisuke Okada
+Stephen Poprocki
+Evan Schoenberg
+Chris Serino
+David Smith
+Greg Smith
+Vinay Venkatesh
+Wesley Underwood
+Ofri Wolfus
+
+If you have contributed to Adium and are not on this list, please contact us.

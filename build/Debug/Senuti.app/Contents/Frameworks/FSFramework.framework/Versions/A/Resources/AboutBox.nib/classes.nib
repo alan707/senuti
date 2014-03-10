@@ -1,0 +1,34 @@
+{
+    IBClasses = (
+        {CLASS = AILinkTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {
+            ACTIONS = {
+                buildFieldClicked = id; 
+                hideLicense = id; 
+                showLicense = id; 
+                visitDonate = id; 
+                visitHomepage = id; 
+            }; 
+            CLASS = FSAboutBoxController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "button_homepage" = NSButton; 
+                "button_license" = NSButton; 
+                "button_version" = NSButton; 
+                "panel_licenseSheet" = NSPanel; 
+                "textField_name" = NSTextField; 
+                "textView_credits" = NSTextView; 
+                "textView_license" = NSTextView; 
+            }; 
+            SUPERCLASS = FSWindowController; 
+        }, 
+        {
+            ACTIONS = {closeWindow = id; }; 
+            CLASS = FSWindowController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

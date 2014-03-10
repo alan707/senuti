@@ -1,0 +1,312 @@
+﻿/* No comment provided by engineer. */
+"%.1f %@" = "%1$.1f %2$@";
+
+/* No comment provided by engineer. */
+"%.2f %@" = "%1$.2f %2$@";
+
+/* No comment provided by engineer. */
+"%@ of %@" = "%1$@ of %2$@";
+
+/* No comment provided by engineer. */
+"%i remaining" = "%i rimanenti";
+
+/* Number of songs, time and size */
+"%i songs, %@, %@" = "%1$i songs, %2$@, %3$@";
+
+/* No comment provided by engineer. */
+"%i:%02i" = "%1$i:%2$i";
+
+/* No comment provided by engineer. */
+"%i:%i:%02i" = "%1$i:%2$i:%3$i";
+
+/* No comment provided by engineer. */
+"Adding %@" = "Aggiungi %@";
+
+/* No comment provided by engineer. */
+"Adding completed" = "Aggiungi completato";
+
+/* No comment provided by engineer. */
+"Advanced" = "Advanced";
+
+/* Header string for track album */
+"Album" = "Album";
+
+/* No comment provided by engineer. */
+"All" = "Tutti";
+
+/* Duplicate file notification message */
+"An item already exists where you are trying to copy \"%@\".  Do you want Senuti to choose a similar file name?" = "An item already exists where you are trying to copy \"%@\".  Do you want Senuti to choose a similar file name?";
+
+/* No comment provided by engineer. */
+"Apple Support" = "Supporto Apple";
+
+/* Stop copying - title */
+"Are you sure you want to stop copying?" = "Are you sure you want to stop copying?";
+
+/* Header string for track artist */
+"Artist" = "Artista";
+
+/* Header string for track bit rate */
+"Bit Rate" = "Bit Rate";
+
+/* No comment provided by engineer. */
+"bytes" = "bytes";
+
+/* No comment provided by engineer. */
+"Cancel" = "Cancella";
+
+/* Prompt in open panel for choosing a new copy location */
+"Choose" = "Scegli";
+
+/* Header string for track comment */
+"Comment" = "Commento";
+
+/* No comment provided by engineer. */
+"Comparing" = "Comparing";
+
+/* Header string for track composer */
+"Composer" = "Compositore";
+
+/* No comment provided by engineer. */
+"Continue" = "Continua";
+
+/* No comment provided by engineer. */
+"Copying" = "Copia";
+
+/* No comment provided by engineer. */
+"Copying %@" = "Copia %@";
+
+/* No comment provided by engineer. */
+"Copying completed" = "Copia completata";
+
+/* Header string for track creation date */
+"Date Added" = "Data Aggiunta";
+
+/* No comment provided by engineer. */
+"days" = "giorni";
+
+/* No comment provided by engineer. */
+"Debug" = "Debug";
+
+/* No comment provided by engineer. */
+"Desktop" = "Scrivania";
+
+/* Header string for track disc number */
+"Disc Number" = "Numero Disco";
+
+/* No comment provided by engineer. */
+"Done" = "Fatto";
+
+/* Duplicate file notification title */
+"Duplicate File" = "File Duplicato";
+
+/* No comment provided by engineer. */
+"EB" = "EB";
+
+/* Header string for track filetype */
+"Filetype" = "Tipo File";
+
+/* No comment provided by engineer. */
+"GB" = "GB";
+
+/* No comment provided by engineer. */
+"Gbps" = "Gbps";
+
+/* No comment provided by engineer. */
+"General" = "Generale";
+
+/* Header string for track genre */
+"Genre" = "Genere";
+
+/* No comment provided by engineer. */
+"Home Folder" = "Cartella Home";
+
+/* No comment provided by engineer. */
+"hours" = "ore";
+
+/* Prefix for items in 'Hide Songs' menu */
+"In %@" = "In %@";
+
+/* No comment provided by engineer. */
+"Insert an iPod to get started" = "Inserisci un iPod per iniziare";
+
+/* No comment provided by engineer. */
+"iTunes Music Folder" = "Cartella iTunes Music";
+
+/* No comment provided by engineer. */
+"KB" = "KB";
+
+/* No comment provided by engineer. */
+"kbps" = "kbps";
+
+/* Header string for track last modified */
+"Last Modified" = "Ultima Modifica";
+
+/* Header string for track last played */
+"Last Played" = "Ultimo Ascolto";
+
+/* Name of library in source list */
+"Library" = "Libreria";
+
+/* No comment provided by engineer. */
+"MB" = "MB";
+
+/* No comment provided by engineer. */
+"Mbps" = "Mbps";
+
+/* No comment provided by engineer. */
+"minutes" = "minuti";
+
+/* Header string for track name */
+"Name" = "Nome";
+
+/* No comment provided by engineer. */
+"Never" = "Mai";
+
+/* Disk full - title */
+"Not enough free disk space" = "Esaurito lo spazio disco libero";
+
+/* No comment provided by engineer. */
+"Nothing selected" = "Non selezionato";
+
+/* No comment provided by engineer. */
+"Other..." = "Altro...";
+
+/* No comment provided by engineer. */
+"Overwrite" = "Sovrascrivi";
+
+/* No comment provided by engineer. */
+"PB" = "PB";
+
+/* Header string for track play count */
+"Play Count" = "Contatore";
+
+/* No comment provided by engineer. */
+"Preferences : " = "Preferenze : ";
+
+/* Header string for track rating */
+"Rating" = "Classifica";
+
+/* No comment provided by engineer. */
+"Search" = "Cerca";
+
+/* No comment provided by engineer. */
+"Search Songs" = "Cerca Brani";
+
+/* No comment provided by engineer. */
+"seconds" = "secondi";
+
+/* No comment provided by engineer. */
+"Select a single item" = "Seleziona un singlolo elemento";
+
+/* No comment provided by engineer. */
+"Senuti Support" = "Supporto Senuti";
+
+/* iTunes add timeout - message */
+"Senuti was unable to add songs to iTunes.  This is most likely because iTunes has a dialog displayed.  Please dismiss all dialogs in iTunes before continuing." = "Senuti non ha potuto aggiungere i brani ad iTunes. Ciò è probabilmente dovuto ad una finestra di dialogo di iTunes aperta. Chiudi tutte le finestre di dialogo di iTunes prima di continuare.";
+
+/* copy fail - message */
+"Senuti was unable to copy the song \"%@\".  An error occurred while trying to %@.  If this continues to be an issue, please report it." = "Senuti was unable to copy the song \"%1$@\".  An error occurred while trying to %2$@.  If this continues to be an issue, please report it.";
+
+/* Cannot create copy directory - message */
+"Senuti was unable to create the folder \"%@\".  This could be because the directory is readonly or because you are trying to copy to an external hard drive which is not present.  You can attempt to create the directory yourself and try again." = "Senuti was unable to create the folder \"%@\".  This could be because the directory is readonly or because you are trying to copy to an external hard drive which is not present.  You can attempt to create the directory yourself and try again.";
+
+/* Header string for track size */
+"Size" = "Dimensione";
+
+/* No comment provided by engineer. */
+"Skip" = "Salta";
+
+/* No comment provided by engineer. */
+"Song" = "Brano";
+
+/* No comment provided by engineer. */
+"Stop Copying" = "Interrompi Copia";
+
+/* Stop copying - message */
+"Stoping copying will not allow you to resume and is not recommended." = "Interrompere la copia non ti permetterà di riprenderla e non è consigliato..";
+
+/* No comment provided by engineer. */
+"TB" = "TB";
+
+/* No comment provided by engineer. */
+"Tbps" = "Tbps";
+
+/* No comment provided by engineer. */
+"Test Crash Reporter" = "Test Crash Reporter";
+
+/* Header string for track time */
+"Time" = "Durata";
+
+/* No comment provided by engineer. */
+"Title" = "Titolo";
+
+/* Disk full - message */
+"To copy the tracks you requested, %0.2f MB of free disk space is required.  Please free more space or try copying to a different disk." = "Per copiare i brani richiesti %0.2f MB di spazio libero sono necessari. Si prega di liberare spazio oppure di copiare su un disco differente.";
+
+/* No comment provided by engineer. */
+"Total Discs" = "Dischi Totali";
+
+/* No comment provided by engineer. */
+"Total Tracks" = "Brani Totali";
+
+/* No comment provided by engineer. */
+"Track also on: %@" = "Brani anche in: %@";
+
+/* No comment provided by engineer. */
+"Track not on other devices" = "Brani non presenti su altri dispositivi";
+
+/* Header string for track track number */
+"Track Number" = "Numero Traccia";
+
+/* No comment provided by engineer. */
+"Transfer" = "Trasferimento";
+
+/* No comment provided by engineer. */
+"Transfer Songs" = "Trasferimento Brani";
+
+/* No comment provided by engineer. */
+"Try Again" = "Riprova";
+
+/* iTunes add timeout - title */
+"Unable to add song to iTunes" = "Impossibile aggiungere i brani ad iTunes";
+
+/* copy fail - title */
+"Unable to copy song" = "Unable to copy song";
+
+/* iTunes add timeout - title */
+"Unable to create folder" = "Impossibile creare la cartella";
+
+/* No comment provided by engineer. */
+"Unknown Album" = "Album Sconosciuto";
+
+/* No comment provided by engineer. */
+"Unknown Artist" = "Artista Sconosciuto";
+
+/* No comment provided by engineer. */
+"Updates" = "Aggiornamenti";
+
+/* No comment provided by engineer. */
+"Use Similar Name" = "Usa Nome Simile";
+
+/* No comment provided by engineer. */
+"Waiting to add" = "In attesa di aggiungere";
+
+/* No comment provided by engineer. */
+"Waiting to copy" = "In attesa di copiare";
+
+/* No comment provided by engineer. */
+"YB" = "YB";
+
+/* Header string for track year */
+"Year" = "Anno";
+
+/* No comment provided by engineer. */
+"years" = "anni";
+
+/* No comment provided by engineer. */
+"ZB" = "ZB";
+
+/* The path to the default iTunes music folder */
+"~/Music/iTunes/iTunes Music" = "~/Musica/iTunes/iTunes Music";
+
